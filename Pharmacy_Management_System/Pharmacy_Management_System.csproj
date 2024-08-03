@@ -77,6 +77,12 @@
     <Compile Include="Customer.Designer.cs">
       <DependentUpon>Customer.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerUC\UC_C_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerUC\UC_C_Profile.Designer.cs">
+      <DependentUpon>UC_C_Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerUC\UC_C_Purchse.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,6 +120,12 @@
     </Compile>
     <Compile Include="PharmacistUC\UC_P_MedicineValidityCheck.Designer.cs">
       <DependentUpon>UC_P_MedicineValidityCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Profile.Designer.cs">
+      <DependentUpon>UC_P_Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="PharmacistUC\UC_P_SellMedicine.cs">
       <SubType>UserControl</SubType>
@@ -165,6 +177,9 @@
     <EmbeddedResource Include="Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUC\UC_C_Profile.resx">
+      <DependentUpon>UC_C_Profile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerUC\UC_C_Purchse.resx">
       <DependentUpon>UC_C_Purchse.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PharmacistUC\UC_P_MedicineValidityCheck.resx">
       <DependentUpon>UC_P_MedicineValidityCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_Profile.resx">
+      <DependentUpon>UC_P_Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PharmacistUC\UC_P_SellMedicine.resx">
       <DependentUpon>UC_P_SellMedicine.cs</DependentUpon>

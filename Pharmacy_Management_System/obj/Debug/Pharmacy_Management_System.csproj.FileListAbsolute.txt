@@ -25,3 +25,5 @@ E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Ph
 E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Pharmacy_Management_System.Customer_SignUp.resources
 E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Pharmacy_Management_System.Customer.resources
 E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Pharmacy_Management_System.CustomerUC.UC_C_Purchse.resources
+E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Pharmacy_Management_System.PharmacistUC.UC_P_Profile.resources
+E:\C#_project\Pharmacy_Management_System\Pharmacy_Management_System\obj\Debug\Pharmacy_Management_System.CustomerUC.UC_C_Profile.resources

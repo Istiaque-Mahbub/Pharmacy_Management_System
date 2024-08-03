@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pharmacy_Management_System.PharmacistUC;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +18,17 @@ namespace Pharmacy_Management_System
         {
             InitializeComponent();
         }
+        public String ID
+        {
+            get { return user.ToString(); }
+        }
         public Pharmacist(String name)
         {
             InitializeComponent();
             usernameLabel.Text = name;
+            this.user = name;
+            uC_P_Profile1.ID = ID;
+           
         }
             
 
@@ -45,6 +53,7 @@ namespace Pharmacy_Management_System
             uC_P_UpdateMedicine1.Visible=false;
             uC_P_MedicineValidityCheck1.Visible=false;
             uC_P_SellMedicine1.Visible= false;
+            uC_P_Profile1.Visible=false;
             btnDashBoard.PerformClick();
         }
 
@@ -76,6 +85,12 @@ namespace Pharmacy_Management_System
         {
             uC_P_SellMedicine1.Visible = true;
             uC_P_SellMedicine1.BringToFront();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            uC_P_Profile1.Visible=true;
+            uC_P_Profile1.BringToFront();
         }
     }
 }

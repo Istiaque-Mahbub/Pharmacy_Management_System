@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pharmacist));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.usernameLabel = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -48,19 +49,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_P_SellMedicine1 = new Pharmacy_Management_System.PharmacistUC.UC_P_SellMedicine();
             this.uC_P_MedicineValidityCheck1 = new Pharmacy_Management_System.PharmacistUC.UC_P_MedicineValidityCheck();
             this.uC_P_UpdateMedicine1 = new Pharmacy_Management_System.PharmacistUC.UC_P_UpdateMedicine();
             this.uC_P_ViewMedicine1 = new Pharmacy_Management_System.PharmacistUC.UC_P_ViewMedicine();
             this.uC_P_AddMedicine1 = new Pharmacy_Management_System.PharmacistUC.UC_P_AddMedicine();
             this.uC_P_Dashboard1 = new Pharmacy_Management_System.PharmacistUC.UC_P_Dashboard();
-            this.usernameLabel = new System.Windows.Forms.Label();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.guna2Elipse7 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_P_Profile1 = new Pharmacy_Management_System.PharmacistUC.UC_P_Profile();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -71,11 +75,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
+            this.panel1.Controls.Add(this.pictureBox9);
+            this.panel1.Controls.Add(this.btnProfile);
             this.panel1.Controls.Add(this.usernameLabel);
             this.panel1.Controls.Add(this.pictureBox8);
             this.panel1.Controls.Add(this.pictureBox7);
@@ -98,10 +105,21 @@
             this.panel1.Size = new System.Drawing.Size(306, 795);
             this.panel1.TabIndex = 0;
             // 
+            // usernameLabel
+            // 
+            this.usernameLabel.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameLabel.ForeColor = System.Drawing.Color.Yellow;
+            this.usernameLabel.Location = new System.Drawing.Point(-1, 744);
+            this.usernameLabel.Name = "usernameLabel";
+            this.usernameLabel.Size = new System.Drawing.Size(307, 39);
+            this.usernameLabel.TabIndex = 16;
+            this.usernameLabel.Text = "User Name";
+            this.usernameLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(71, 662);
+            this.pictureBox8.Location = new System.Drawing.Point(74, 688);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(35, 40);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -111,7 +129,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(62, 599);
+            this.pictureBox7.Location = new System.Drawing.Point(61, 556);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(35, 40);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,7 +139,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(3, 538);
+            this.pictureBox6.Location = new System.Drawing.Point(2, 495);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(31, 40);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -131,7 +149,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 478);
+            this.pictureBox5.Location = new System.Drawing.Point(11, 435);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 40);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -141,7 +159,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(31, 415);
+            this.pictureBox4.Location = new System.Drawing.Point(30, 372);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(35, 40);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -151,7 +169,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(31, 350);
+            this.pictureBox3.Location = new System.Drawing.Point(30, 307);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(35, 40);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -161,7 +179,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(46, 294);
+            this.pictureBox2.Location = new System.Drawing.Point(45, 251);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(35, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -176,7 +194,7 @@
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 657);
+            this.btnLogOut.Location = new System.Drawing.Point(3, 683);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(300, 45);
             this.btnLogOut.TabIndex = 8;
@@ -192,7 +210,7 @@
             this.btnSellMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSellMedicine.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSellMedicine.ForeColor = System.Drawing.Color.White;
-            this.btnSellMedicine.Location = new System.Drawing.Point(16, 594);
+            this.btnSellMedicine.Location = new System.Drawing.Point(15, 551);
             this.btnSellMedicine.Name = "btnSellMedicine";
             this.btnSellMedicine.Size = new System.Drawing.Size(290, 45);
             this.btnSellMedicine.TabIndex = 7;
@@ -208,7 +226,7 @@
             this.btnMediValidityCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMediValidityCheck.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMediValidityCheck.ForeColor = System.Drawing.Color.White;
-            this.btnMediValidityCheck.Location = new System.Drawing.Point(0, 533);
+            this.btnMediValidityCheck.Location = new System.Drawing.Point(-1, 490);
             this.btnMediValidityCheck.Name = "btnMediValidityCheck";
             this.btnMediValidityCheck.Size = new System.Drawing.Size(310, 45);
             this.btnMediValidityCheck.TabIndex = 6;
@@ -224,7 +242,7 @@
             this.btnModifyMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModifyMedicine.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModifyMedicine.ForeColor = System.Drawing.Color.White;
-            this.btnModifyMedicine.Location = new System.Drawing.Point(0, 473);
+            this.btnModifyMedicine.Location = new System.Drawing.Point(-1, 430);
             this.btnModifyMedicine.Name = "btnModifyMedicine";
             this.btnModifyMedicine.Size = new System.Drawing.Size(310, 45);
             this.btnModifyMedicine.TabIndex = 5;
@@ -240,7 +258,7 @@
             this.btnViewMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewMedicine.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewMedicine.ForeColor = System.Drawing.Color.White;
-            this.btnViewMedicine.Location = new System.Drawing.Point(0, 410);
+            this.btnViewMedicine.Location = new System.Drawing.Point(-1, 367);
             this.btnViewMedicine.Name = "btnViewMedicine";
             this.btnViewMedicine.Size = new System.Drawing.Size(310, 45);
             this.btnViewMedicine.TabIndex = 4;
@@ -256,7 +274,7 @@
             this.btnAddMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMedicine.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddMedicine.ForeColor = System.Drawing.Color.White;
-            this.btnAddMedicine.Location = new System.Drawing.Point(0, 350);
+            this.btnAddMedicine.Location = new System.Drawing.Point(-1, 307);
             this.btnAddMedicine.Name = "btnAddMedicine";
             this.btnAddMedicine.Size = new System.Drawing.Size(310, 45);
             this.btnAddMedicine.TabIndex = 3;
@@ -272,7 +290,7 @@
             this.btnDashBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashBoard.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashBoard.ForeColor = System.Drawing.Color.White;
-            this.btnDashBoard.Location = new System.Drawing.Point(0, 289);
+            this.btnDashBoard.Location = new System.Drawing.Point(-1, 246);
             this.btnDashBoard.Name = "btnDashBoard";
             this.btnDashBoard.Size = new System.Drawing.Size(310, 45);
             this.btnDashBoard.TabIndex = 2;
@@ -285,7 +303,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(37, 212);
+            this.label1.Location = new System.Drawing.Point(36, 169);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(208, 49);
             this.label1.TabIndex = 1;
@@ -294,15 +312,16 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(62, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox1.Size = new System.Drawing.Size(167, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.uC_P_Profile1);
             this.panel2.Controls.Add(this.uC_P_SellMedicine1);
             this.panel2.Controls.Add(this.uC_P_MedicineValidityCheck1);
             this.panel2.Controls.Add(this.uC_P_UpdateMedicine1);
@@ -313,30 +332,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1073, 795);
             this.panel2.TabIndex = 1;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.panel2;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.panel2;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.panel2;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this.panel2;
-            // 
-            // guna2Elipse5
-            // 
-            this.guna2Elipse5.TargetControl = this.panel2;
-            // 
-            // guna2Elipse6
-            // 
-            this.guna2Elipse6.TargetControl = this.panel2;
             // 
             // uC_P_SellMedicine1
             // 
@@ -387,16 +382,67 @@
             this.uC_P_Dashboard1.Size = new System.Drawing.Size(1073, 795);
             this.uC_P_Dashboard1.TabIndex = 0;
             // 
-            // usernameLabel
+            // guna2Elipse1
             // 
-            this.usernameLabel.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameLabel.ForeColor = System.Drawing.Color.Yellow;
-            this.usernameLabel.Location = new System.Drawing.Point(-1, 730);
-            this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(307, 39);
-            this.usernameLabel.TabIndex = 16;
-            this.usernameLabel.Text = "User Name";
-            this.usernameLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.guna2Elipse1.TargetControl = this.panel2;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.panel2;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.panel2;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.TargetControl = this.panel2;
+            // 
+            // guna2Elipse6
+            // 
+            this.guna2Elipse6.TargetControl = this.panel2;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(71, 622);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(35, 40);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 18;
+            this.pictureBox9.TabStop = false;
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.btnProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
+            this.btnProfile.FlatAppearance.BorderSize = 0;
+            this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfile.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfile.ForeColor = System.Drawing.Color.White;
+            this.btnProfile.Location = new System.Drawing.Point(0, 617);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(300, 45);
+            this.btnProfile.TabIndex = 17;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.UseVisualStyleBackColor = false;
+            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
+            // 
+            // guna2Elipse7
+            // 
+            this.guna2Elipse7.TargetControl = this.panel2;
+            // 
+            // uC_P_Profile1
+            // 
+            this.uC_P_Profile1.BackColor = System.Drawing.Color.White;
+            this.uC_P_Profile1.Location = new System.Drawing.Point(0, 0);
+            this.uC_P_Profile1.Name = "uC_P_Profile1";
+            this.uC_P_Profile1.Size = new System.Drawing.Size(1077, 794);
+            this.uC_P_Profile1.TabIndex = 6;
             // 
             // Pharmacist
             // 
@@ -422,6 +468,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -459,5 +506,9 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
         private PharmacistUC.UC_P_SellMedicine uC_P_SellMedicine1;
         private System.Windows.Forms.Label usernameLabel;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Button btnProfile;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse7;
+        private PharmacistUC.UC_P_Profile uC_P_Profile1;
     }
 }

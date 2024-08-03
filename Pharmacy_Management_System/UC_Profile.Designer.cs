@@ -282,6 +282,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UC_Profile";
             this.Size = new System.Drawing.Size(1077, 794);
+            this.Load += new System.EventHandler(this.UC_Profile_Load);
             this.Enter += new System.EventHandler(this.UC_Profile_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

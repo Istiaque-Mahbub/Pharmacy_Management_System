@@ -138,6 +138,7 @@
             // 
             // usernameLabel
             // 
+            this.usernameLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.usernameLabel.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.ForeColor = System.Drawing.Color.Yellow;
             this.usernameLabel.Location = new System.Drawing.Point(0, 739);
@@ -154,6 +155,7 @@
             this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnLogOut.FlatAppearance.BorderSize = 0;
             this.btnLogOut.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnLogOut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -173,6 +175,7 @@
             this.btnProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnProfile.FlatAppearance.BorderSize = 0;
             this.btnProfile.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnProfile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProfile.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -191,6 +194,7 @@
             this.btn_viewUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_viewUser.FlatAppearance.BorderSize = 0;
             this.btn_viewUser.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_viewUser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btn_viewUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_viewUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_viewUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -209,6 +213,7 @@
             this.btn_AddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_AddUser.FlatAppearance.BorderSize = 0;
             this.btn_AddUser.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_AddUser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btn_AddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_AddUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,6 +232,8 @@
             this.btn_DashBoard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_DashBoard.FlatAppearance.BorderSize = 0;
             this.btn_DashBoard.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_DashBoard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_DashBoard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btn_DashBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_DashBoard.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DashBoard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;

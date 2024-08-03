@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,13 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pharmacy_Management_System
+namespace Pharmacy_Management_System.PharmacistUC
 {
-    public partial class UC_Profile : UserControl
+    public partial class UC_P_Profile : UserControl
     {
-        Function fn =new Function();
+        Function fn = new Function();
         String query;
-        public UC_Profile()
+        public UC_P_Profile()
         {
             InitializeComponent();
         }
@@ -23,31 +24,31 @@ namespace Pharmacy_Management_System
             set { userNameLabel.Text = value; }
         }
 
-        
-
-        private void UC_Profile_Enter(object sender, EventArgs e)
+        private void UC_P_Profile_Enter(object sender, EventArgs e)
         {
+           
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            UC_Profile_Enter(this,null);    
+            UC_P_Profile_Enter(this, null);
         }
+
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            String role=txtuserRole.Text;
-            String name=txtname.Text;
-            String dob= txtDOB.Text;
-            Int64 mobile=Int64.Parse(txtMobile.Text);   
-            String email=txtEmail.Text;
-            String username=userNameLabel.Text;
-            String password=txtPassword.Text;
+            String role = txtuserRole.Text;
+            String name = txtname.Text;
+            String dob = txtDOB.Text;
+            Int64 mobile = Int64.Parse(txtMobile.Text);
+            String email = txtEmail.Text;
+            String username = userNameLabel.Text;
+            String password = txtPassword.Text;
 
-            query = "update users set userRole='" + role + "', name='" + name + "', dob='" + dob + "',mobile="+mobile+",email='"+email+"',pass='"+password+ "' where username='"+username+"'";
+            query = "update users set userRole='" + role + "', name='" + name + "', dob='" + dob + "',mobile=" + mobile + ",email='" + email + "',pass='" + password + "' where username='" + username + "'";
             fn.setData(query, "Profile updation successfull");
         }
 
-        private void UC_Profile_Load(object sender, EventArgs e)
+        private void UC_P_Profile_Load(object sender, EventArgs e)
         {
             query = "select * from users where username='" + userNameLabel.Text + "'";
             DataSet ds = fn.getData(query);

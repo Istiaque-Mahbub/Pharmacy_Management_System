@@ -17,10 +17,16 @@ namespace Pharmacy_Management_System
         {
             InitializeComponent();
         }
+        public String ID
+        {
+            get { return user.ToString(); }
+        }
         public Customer(String name)
         {
             InitializeComponent();
             usernameLabel.Text = name;
+            this.user = name;
+            uC_C_Profile1.ID = ID;
         }
 
             private void btnLogOut_Click(object sender, EventArgs e)
@@ -33,6 +39,7 @@ namespace Pharmacy_Management_System
         private void Customer_Load(object sender, EventArgs e)
         {
             uC_C_Purchse1.Visible = false;
+            uC_C_Profile1.Visible = false;
             btnPurchaseMedicine.PerformClick();
         }
 
@@ -40,6 +47,13 @@ namespace Pharmacy_Management_System
         {
             uC_C_Purchse1.Visible = true;
             uC_C_Purchse1.BringToFront();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            uC_C_Profile1.Visible = true;
+            uC_C_Profile1.BringToFront();
+
         }
     }
 }
