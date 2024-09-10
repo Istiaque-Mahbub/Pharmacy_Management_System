@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pharmacy_Management_System</RootNamespace>
+    <AssemblyName>Pharmacy_Management_System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminstrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminstrator.Designer.cs">
+      <DependentUpon>Adminstrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_AddUser.Designer.cs">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_Dashboard.Designer.cs">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUC\UC_C_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerUC\UC_C_Profile.Designer.cs">
+      <DependentUpon>UC_C_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUC\UC_C_Purchse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerUC\UC_C_Purchse.Designer.cs">
+      <DependentUpon>UC_C_Purchse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_SignUp.Designer.cs">
+      <DependentUpon>Customer_SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Pharmacist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacist.Designer.cs">
+      <DependentUpon>Pharmacist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_AddMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_AddMedicine.Designer.cs">
+      <DependentUpon>UC_P_AddMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Dashboard.Designer.cs">
+      <DependentUpon>UC_P_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_MedicineValidityCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_MedicineValidityCheck.Designer.cs">
+      <DependentUpon>UC_P_MedicineValidityCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Profile.Designer.cs">
+      <DependentUpon>UC_P_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_SellMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_SellMedicine.Designer.cs">
+      <DependentUpon>UC_P_SellMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_UpdateMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_UpdateMedicine.Designer.cs">
+      <DependentUpon>UC_P_UpdateMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_ViewMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_ViewMedicine.Designer.cs">
+      <DependentUpon>UC_P_ViewMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn_page.Designer.cs">
+      <DependentUpon>SignIn_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Profile.Designer.cs">
+      <DependentUpon>UC_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewUser.Designer.cs">
+      <DependentUpon>UC_ViewUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Adminstrator.resx">
+      <DependentUpon>Adminstrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminstratorUC\UC_AddUser.resx">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminstratorUC\UC_Dashboard.resx">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUC\UC_C_Profile.resx">
+      <DependentUpon>UC_C_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUC\UC_C_Purchse.resx">
+      <DependentUpon>UC_C_Purchse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_SignUp.resx">
+      <DependentUpon>Customer_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacist.resx">
+      <DependentUpon>Pharmacist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_AddMedicine.resx">
+      <DependentUpon>UC_P_AddMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_Dashboard.resx">
+      <DependentUpon>UC_P_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_MedicineValidityCheck.resx">
+      <DependentUpon>UC_P_MedicineValidityCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_Profile.resx">
+      <DependentUpon>UC_P_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_SellMedicine.resx">
+      <DependentUpon>UC_P_SellMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_UpdateMedicine.resx">
+      <DependentUpon>UC_P_UpdateMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_ViewMedicine.resx">
+      <DependentUpon>UC_P_ViewMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn_page.resx">
+      <DependentUpon>SignIn_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UC_Profile.resx">
+      <DependentUpon>UC_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewUser.resx">
+      <DependentUpon>UC_ViewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
