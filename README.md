@@ -47,7 +47,9 @@ delete from medic where mid = '"+MedicineID+"'  <br />
  <br />
  <br />
  <br />
- # Query for add medicine
+ 
+# Query for Add medicine
+  <br />
  insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")
  <br />
  <br />
