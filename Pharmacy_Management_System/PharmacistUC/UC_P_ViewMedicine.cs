@@ -59,7 +59,7 @@ namespace Pharmacy_Management_System.PharmacistUC
                 fn.setData(query, "Medicine is deleted");
                 UC_P_ViewMedicine_Load(this, null);
             }
-
+ 
             }
             catch { }
             
