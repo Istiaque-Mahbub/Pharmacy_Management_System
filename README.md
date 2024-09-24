@@ -62,6 +62,62 @@ pass varchar (250) not null<br />
 ![image](https://github.com/user-attachments/assets/476a5d58-75d8-460f-9ae6-4c33aa0884ed)
 ![image](https://github.com/user-attachments/assets/11072aee-250d-4bac-8ba3-7260adf5ec4d)
 
+<br />
+<br />
+  <br />
+# SQL qurey
+<br />
+
+  SignUp page<br />
+select * from users<br />
+select * from users where username = '" +textUserName.Text+"' and pass='"+textPassword.Text+"'<br />
+UC_Dashboard<br />
+select count(userRole) from users where userRole='Adminstrator'<br />
+select count(userRole) from users where userRole='Pharmacist'<br />
+select count(userRole) from users where userRole='Customer'<br />
+UC_ViewUser<br />
+select * from users where username like '"+txtUserName.Text+"%'<br />
+delete from users where username='"+username+"'<br />
+Profile<br />
+select * from users where username='"+userNameLabel.Text+"'<br />
+update users set userRole='" + role + "', name='" + name + "', dob='" + dob + "', mobile="+mobile+",email='"+email+"',pass='"+password+ "' where username='"+username+"'<br />
+AddUser<br />
+insert into users(userRole,name,dob,mobile,email,username,pass) values ('"+role+"','"+name+ "','"+dob+"',"+mobile+",'"+email+"','"+username+"','"+password+"')<br />
+select * from users where username='"+txtUserName.Text+"'<br />
+UC_P_DashBoard<br />
+select count(mname) from medic where eDate >= getdate()<br />
+select count(mname) from medic where eDate < getdate()<br />
+UC_P_AddMedicine<br />
+insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")<br />
+UC_P_ViewMedicine<br />
+select * from medic<br />
+select * from medic where mname like '"+txtSearch.Text+"%'<br />
+delete from medic where mid = '"+MedicineID+"'<br />
+UC_P_UpadateMedicine<br />
+select * from medic where mid='" + txtMedicineID.Text + "'<br />
+update medic set mname='"+ name + "',mnumber='"+ number + "',mDate='"+ mdate + "',eDate='"+ edate + "',quantity="+ totalQuantity + ",perUnit="+ unitprice + " where mid='"+txtMedicineID.Text+"'<br />
+UC_MedicineVilidityCheck<br />
+select * from medic where eDate >= getdate()<br />
+select * from medic where eDate < getdate()<br />
+select * from medic<br />
+UC_P_SellMedicine<br />
+select mname from medic where mname like '"+txtSearch.Text+ "%' and eDate >= getdate() and quantity > '0'<br />
+select mid,eDate,perUnit from medic where mname='"+name+"'<br />
+select quantity  from medic where mid='" + txtMediId.Text + "'<br />
+update medic set quantity=" + newQuantity + " where mid='" + txtMediId.Text + "'<br />
+select quantity from medic where mid='" + valueId + "'<br />
+update medic set quantity ='" + newQuantity + "' where mid='" + valueId + "'<br />
+Customer_SignUp<br />
+select * from users where username='" + txtUserName.Text + "'<br />
+insert into users(userRole,name,dob,mobile,email,username,pass) values ('" + role + "','" + name + "','" + dob + "'," + mobile + ",'" + email + "','" + username + "','" + password + "'<br />
+UC_C_Purchase<br />
+select mname from medic where eDate >= getdate() and quantity > '0'<br />
+select mname from medic where mname like '" + txtSearch.Text + "%' and eDate >= getdate() and quantity > '0'<br />
+select mid,eDate,perUnit from medic where mname='" + name + "'<br />
+select quantity  from medic where mid='" + txtMediId.Text + "'<br />
+update medic set quantity=" + newQuantity + " where mid='" + txtMediId.Text + "'<br />
+select quantity from medic where mid='" + valueId + "'<br />
+update medic set quantity ='" + newQuantity + "' where mid='" + valueId + "'<br />
 
 
  # Fuctionality of this project
