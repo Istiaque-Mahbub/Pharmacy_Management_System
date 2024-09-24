@@ -53,6 +53,10 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtCompany = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -181,7 +185,7 @@
             this.txtEmail.BackColor = System.Drawing.Color.White;
             this.txtEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
-            this.txtEmail.Location = new System.Drawing.Point(897, 112);
+            this.txtEmail.Location = new System.Drawing.Point(894, 94);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(340, 32);
             this.txtEmail.TabIndex = 11;
@@ -190,7 +194,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(892, 69);
+            this.label6.Location = new System.Drawing.Point(889, 51);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 25);
             this.label6.TabIndex = 10;
@@ -201,7 +205,7 @@
             this.txtUserName.BackColor = System.Drawing.Color.White;
             this.txtUserName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.Color.Black;
-            this.txtUserName.Location = new System.Drawing.Point(897, 216);
+            this.txtUserName.Location = new System.Drawing.Point(894, 198);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(340, 32);
             this.txtUserName.TabIndex = 13;
@@ -211,7 +215,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(892, 173);
+            this.label7.Location = new System.Drawing.Point(889, 155);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 25);
             this.label7.TabIndex = 12;
@@ -222,7 +226,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(953, 584);
+            this.label9.Location = new System.Drawing.Point(953, 624);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(292, 18);
             this.label9.TabIndex = 24;
@@ -236,7 +240,7 @@
             this.btn_RESET.ForeColor = System.Drawing.Color.White;
             this.btn_RESET.Image = ((System.Drawing.Image)(resources.GetObject("btn_RESET.Image")));
             this.btn_RESET.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_RESET.Location = new System.Drawing.Point(1108, 441);
+            this.btn_RESET.Location = new System.Drawing.Point(1108, 481);
             this.btn_RESET.Name = "btn_RESET";
             this.btn_RESET.Size = new System.Drawing.Size(165, 43);
             this.btn_RESET.TabIndex = 23;
@@ -252,7 +256,7 @@
             this.btnSign_up.ForeColor = System.Drawing.Color.White;
             this.btnSign_up.Image = ((System.Drawing.Image)(resources.GetObject("btnSign_up.Image")));
             this.btnSign_up.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSign_up.Location = new System.Drawing.Point(908, 441);
+            this.btnSign_up.Location = new System.Drawing.Point(908, 481);
             this.btnSign_up.Name = "btnSign_up";
             this.btnSign_up.Size = new System.Drawing.Size(165, 43);
             this.btnSign_up.TabIndex = 22;
@@ -262,7 +266,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(1268, 216);
+            this.pictureBox2.Location = new System.Drawing.Point(1265, 198);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(47, 32);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -280,7 +284,7 @@
             this.btnSignIn.ForeColor = System.Drawing.Color.White;
             this.btnSignIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignIn.ImageKey = "(none)";
-            this.btnSignIn.Location = new System.Drawing.Point(995, 511);
+            this.btnSignIn.Location = new System.Drawing.Point(995, 551);
             this.btnSignIn.Margin = new System.Windows.Forms.Padding(0);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(197, 48);
@@ -293,7 +297,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(897, 332);
+            this.txtPassword.Location = new System.Drawing.Point(894, 314);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(340, 30);
@@ -303,7 +307,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(892, 283);
+            this.label8.Location = new System.Drawing.Point(889, 265);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(98, 25);
             this.label8.TabIndex = 27;
@@ -323,6 +327,47 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // txtAddress
+            // 
+            this.txtAddress.BackColor = System.Drawing.Color.White;
+            this.txtAddress.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.ForeColor = System.Drawing.Color.Black;
+            this.txtAddress.Location = new System.Drawing.Point(441, 536);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(340, 32);
+            this.txtAddress.TabIndex = 31;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(436, 493);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(85, 25);
+            this.label10.TabIndex = 30;
+            this.label10.Text = "Address";
+            // 
+            // txtCompany
+            // 
+            this.txtCompany.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCompany.FormattingEnabled = true;
+            this.txtCompany.Items.AddRange(new object[] {
+            "Customer"});
+            this.txtCompany.Location = new System.Drawing.Point(894, 419);
+            this.txtCompany.Name = "txtCompany";
+            this.txtCompany.Size = new System.Drawing.Size(340, 32);
+            this.txtCompany.TabIndex = 33;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(889, 370);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(142, 25);
+            this.label11.TabIndex = 32;
+            this.label11.Text = "SeletCustomer";
+            // 
             // Customer_SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -330,6 +375,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1344, 676);
             this.ControlBox = false;
+            this.Controls.Add(this.txtCompany);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label8);
@@ -392,5 +441,9 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox txtCompany;
+        private System.Windows.Forms.Label label11;
     }
 }

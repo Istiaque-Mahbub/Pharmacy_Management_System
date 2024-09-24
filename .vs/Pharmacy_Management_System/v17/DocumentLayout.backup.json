@@ -3,56 +3,84 @@
   "WorkspaceRootPath": "E:\\C#_project\\Pharmacy_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|e:\\c#_project\\pharmacy_management_system\\pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|e:\\c#_project\\pharmacy_management_system\\pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\uc_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\uc_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\signin_page.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\signin_page.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_viewmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_medicinevaliditycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\uc_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\uc_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customeruc\\uc_c_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customeruc\\uc_c_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,20 +99,8 @@
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customeruc\\uc_c_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customeruc\\uc_c_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -119,22 +131,6 @@
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customeruc\\uc_c_purchse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\signin_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -143,24 +139,12 @@
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customer_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_sellmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\customeruc\\uc_c_purchse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\customeruc\\uc_c_purchse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\pharmacistuc\\uc_p_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\pharmacistuc\\uc_p_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|E:\\C#_project\\Pharmacy_Management_System\\pharmacy_management_system\\adminstratoruc\\uc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAAEB27F-2F38-4401-A947-CFD5FA9782E6}|Pharmacy_Management_System\\Pharmacy_Management_System.csproj|solutionrelative:pharmacy_management_system\\adminstratoruc\\uc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,53 +154,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 345,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UC_Profile.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_Profile.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\UC_Profile.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_Profile.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\UC_Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UC_AddUser.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T05:54:37Z",
-              "IsPinned": true
+              "WhenOpened": "2024-07-30T06:45:15.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_P_ViewMedicine.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAASwD0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UC_P_SellMedicine.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:17:53.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T18:47:05.418Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer_SignUp.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer_SignUp.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\Customer_SignUp.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAqwEEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:30:19.935Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Adminstrator.Designer.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.Designer.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Adminstrator.Designer.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.Designer.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\Adminstrator.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Customer_SignUp.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer_SignUp.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\Customer_SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:00:12.369Z"
+              "WhenOpened": "2024-08-01T13:22:33.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "SignIn_page.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\SignIn_page.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\SignIn_page.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:43:10.445Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignIn_page.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\SignIn_page.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\SignIn_page.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:28:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UC_P_SellMedicine.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwE4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T05:02:08.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UC_AddUser.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAnwDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:41:07.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Adminstrator.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Adminstrator.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\Adminstrator.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:49:28.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Adminstrator.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Adminstrator.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\Adminstrator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:48:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UC_P_Profile.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:24:11.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UC_P_Profile.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:27:43.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs [Design]",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer.cs [Design]",
+              "RelativeToolTip": "Pharmacy_Management_System\\Customer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:38:10.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UC_P_AddMedicine.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCMAAADfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:09:18.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SignIn_page.Designer.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.Designer.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\SignIn_page.Designer.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.Designer.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\SignIn_page.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:02:08.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Function.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Function.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Function.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Function.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\Function.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:25:46.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "UC_P_AddMedicine.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
@@ -227,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "UC_P_ViewMedicine.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
@@ -238,42 +367,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Adminstrator.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Adminstrator.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\Adminstrator.cs [Design]",
+              "DocumentIndex": 18,
+              "Title": "UC_P_ViewMedicine.cs",
+              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
+              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
+              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
+              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_ViewMedicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T10:59:05.208Z"
+              "WhenOpened": "2024-07-31T13:17:53.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UC_P_MedicineValidityCheck.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:00:25.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Adminstrator.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Adminstrator.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Adminstrator.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\Adminstrator.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAIAwwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:35:48.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "UC_AddUser.Designer.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.Designer.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.Designer.cs",
@@ -285,54 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UC_AddUser.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T06:45:15.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UC_AddUser.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_AddUser.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAWwCYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T06:49:27.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Function.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Function.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Function.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Function.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\Function.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T11:25:46.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UC_P_AddMedicine.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_AddMedicine.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAADwvzAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T10:09:18.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "UC_P_MedicineValidityCheck.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_MedicineValidityCheck.cs",
@@ -343,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Program.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\Program.cs",
@@ -355,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Customer.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer.cs",
@@ -367,19 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UC_P_Profile.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvzsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T13:27:43.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UC_C_Profile.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\CustomerUC\\UC_C_Profile.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\CustomerUC\\UC_C_Profile.cs",
@@ -391,18 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UC_Profile.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_Profile.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\UC_Profile.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_Profile.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\UC_Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T05:20:12.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "UC_C_Profile.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\CustomerUC\\UC_C_Profile.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\CustomerUC\\UC_C_Profile.cs",
@@ -413,29 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UC_P_Profile.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T13:24:11.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Customer.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\Customer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:38:10.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Pharmacist.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Pharmacist.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\Pharmacist.cs",
@@ -446,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Pharmacist.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Pharmacist.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\Pharmacist.cs",
@@ -458,30 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Customer_SignUp.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer_SignUp.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\Customer_SignUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:22:33.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Customer_SignUp.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\Customer_SignUp.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\Customer_SignUp.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\Customer_SignUp.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAwwFEAAADVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:34:13.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 34,
               "Title": "UC_C_Purchse.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\CustomerUC\\UC_C_Purchse.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\CustomerUC\\UC_C_Purchse.cs",
@@ -492,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "UC_C_Purchse.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\CustomerUC\\UC_C_Purchse.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\CustomerUC\\UC_C_Purchse.cs",
@@ -504,30 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UC_P_SellMedicine.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "ViewState": "AQIAAPQAAAAAAAAAAAA2wMsAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T05:02:08.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UC_P_SellMedicine.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\PharmacistUC\\UC_P_SellMedicine.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:47:05.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "UC_P_UpdateMedicine.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_UpdateMedicine.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_UpdateMedicine.cs",
@@ -539,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "UC_P_UpdateMedicine.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_UpdateMedicine.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_UpdateMedicine.cs",
@@ -550,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "UC_P_Dashboard.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Dashboard.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Dashboard.cs",
@@ -562,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 35,
               "Title": "UC_P_Dashboard.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\PharmacistUC\\UC_P_Dashboard.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\PharmacistUC\\UC_P_Dashboard.cs",
@@ -573,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "UC_ViewUser.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_ViewUser.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\UC_ViewUser.cs",
@@ -585,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "UC_ViewUser.cs [Design]",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\UC_ViewUser.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\UC_ViewUser.cs",
@@ -596,49 +564,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "UC_Dashboard.cs",
               "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
               "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
               "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
               "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAwwC0AAAAJAAAA",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T06:16:59.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UC_Dashboard.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\AdminstratorUC\\UC_Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:53:29.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SignIn_page.cs [Design]",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\SignIn_page.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs [Design]",
-              "RelativeToolTip": "Pharmacy_Management_System\\SignIn_page.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:43:10.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SignIn_page.cs",
-              "DocumentMoniker": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
-              "RelativeDocumentMoniker": "Pharmacy_Management_System\\SignIn_page.cs",
-              "ToolTip": "E:\\C#_project\\Pharmacy_Management_System\\Pharmacy_Management_System\\SignIn_page.cs",
-              "RelativeToolTip": "Pharmacy_Management_System\\SignIn_page.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA1wCIAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T15:28:12.829Z"
             }
           ]
         },

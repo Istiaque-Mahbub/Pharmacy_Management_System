@@ -209,6 +209,12 @@ namespace Pharmacy_Management_System.PharmacistUC
                 UC_P_SellMedicine_Load(this, null);
             }
         }
+
+        private void txtPricePerUnit_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnPurchase_Print_Click(object sender, EventArgs e)
         {
             try {

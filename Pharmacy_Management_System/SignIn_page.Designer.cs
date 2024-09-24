@@ -102,7 +102,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(827, 58);
+            this.pictureBox3.Location = new System.Drawing.Point(845, 58);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(146, 135);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +113,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(847, 205);
+            this.label2.Location = new System.Drawing.Point(865, 205);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 32);
             this.label2.TabIndex = 4;
@@ -124,7 +124,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(710, 297);
+            this.label3.Location = new System.Drawing.Point(708, 288);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 35);
             this.label3.TabIndex = 5;
@@ -134,7 +134,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(710, 397);
+            this.label4.Location = new System.Drawing.Point(708, 388);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 35);
             this.label4.TabIndex = 6;
@@ -143,7 +143,7 @@
             // textUserName
             // 
             this.textUserName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textUserName.Location = new System.Drawing.Point(716, 335);
+            this.textUserName.Location = new System.Drawing.Point(714, 326);
             this.textUserName.Name = "textUserName";
             this.textUserName.Size = new System.Drawing.Size(344, 32);
             this.textUserName.TabIndex = 7;
@@ -152,7 +152,7 @@
             // 
             this.textPassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPassword.ForeColor = System.Drawing.Color.Black;
-            this.textPassword.Location = new System.Drawing.Point(716, 445);
+            this.textPassword.Location = new System.Drawing.Point(714, 436);
             this.textPassword.Name = "textPassword";
             this.textPassword.PasswordChar = '*';
             this.textPassword.Size = new System.Drawing.Size(344, 32);
@@ -167,10 +167,9 @@
             this.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSignIn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignIn.ForeColor = System.Drawing.Color.White;
-            this.btnSignIn.Image = ((System.Drawing.Image)(resources.GetObject("btnSignIn.Image")));
             this.btnSignIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignIn.ImageKey = "(none)";
-            this.btnSignIn.Location = new System.Drawing.Point(662, 534);
+            this.btnSignIn.Location = new System.Drawing.Point(662, 531);
             this.btnSignIn.Margin = new System.Windows.Forms.Padding(0);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(197, 48);
@@ -191,7 +190,7 @@
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
             this.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReset.Location = new System.Drawing.Point(926, 534);
+            this.btnReset.Location = new System.Drawing.Point(926, 531);
             this.btnReset.Margin = new System.Windows.Forms.Padding(0);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(197, 48);
@@ -225,10 +224,9 @@
             this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSignUp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Image = ((System.Drawing.Image)(resources.GetObject("btnSignUp.Image")));
             this.btnSignUp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignUp.ImageKey = "(none)";
-            this.btnSignUp.Location = new System.Drawing.Point(794, 622);
+            this.btnSignUp.Location = new System.Drawing.Point(794, 610);
             this.btnSignUp.Margin = new System.Windows.Forms.Padding(0);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(197, 48);

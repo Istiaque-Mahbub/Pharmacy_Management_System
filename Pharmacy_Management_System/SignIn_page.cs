@@ -15,6 +15,8 @@ namespace Pharmacy_Management_System
         Function fn=new Function();
         String query;
         DataSet ds;
+
+        
         public SignIn_page()
         {
             InitializeComponent();
@@ -41,7 +43,7 @@ namespace Pharmacy_Management_System
             textPassword.Clear();   
         }
 
-
+        
 
         private void btnSignIn_Click_1(object sender, EventArgs e)
         {
@@ -110,6 +112,11 @@ namespace Pharmacy_Management_System
             Customer_SignUp sign=new Customer_SignUp();
             sign.Show();
             this.Hide();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

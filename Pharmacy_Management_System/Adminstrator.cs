@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pharmacy_Management_System.AdminstratorUC;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,7 @@ namespace Pharmacy_Management_System
     
     public partial class Adminstrator : Form
     {
-        String user = "";
+        public String user = "";
         public Adminstrator()
         {
             InitializeComponent();
@@ -29,6 +30,7 @@ namespace Pharmacy_Management_System
             this.user = name;
             uC_ViewUser1.ID = ID;
             uC_Profile1.ID=ID;
+            uC_AddUser1.user = name;
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)

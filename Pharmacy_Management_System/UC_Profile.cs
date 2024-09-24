@@ -58,5 +58,10 @@ namespace Pharmacy_Management_System
             txtEmail.Text = ds.Tables[0].Rows[0][5].ToString();
             txtPassword.Text = ds.Tables[0].Rows[0][7].ToString();
         }
+
+        private void txtuserRole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

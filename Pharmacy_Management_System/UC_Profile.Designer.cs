@@ -106,6 +106,7 @@
             this.txtuserRole.Name = "txtuserRole";
             this.txtuserRole.Size = new System.Drawing.Size(340, 32);
             this.txtuserRole.TabIndex = 6;
+            this.txtuserRole.SelectedIndexChanged += new System.EventHandler(this.txtuserRole_SelectedIndexChanged);
             // 
             // label4
             // 

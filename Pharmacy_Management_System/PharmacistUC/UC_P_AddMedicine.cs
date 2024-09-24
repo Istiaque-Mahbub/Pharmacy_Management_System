@@ -24,15 +24,16 @@ namespace Pharmacy_Management_System.PharmacistUC
         {
             if(txtMediName.Text!="" && txtMediId.Text!="" && txtMediNumber.Text!="" && txtManufacturingDate.Text!="" && txtExpireDate.Text!="" && txtQuantity.Text!="" && txtPricePerUnit.Text!="")
             {
+                String comName = txtCompanyName.Text;
                 String mid=txtMediId.Text;
                 String mname=txtMediName.Text;
                 String mnumber=txtMediNumber.Text;
                 String mdate=txtManufacturingDate.Text;
-                String edate=txtExpireDate.Text;    
+                String edate=txtExpireDate.Text;
                 Int64 quantity=Int64.Parse(txtQuantity.Text);
                 Int64 perunit=Int64.Parse(txtPricePerUnit.Text);
 
-                query = "insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")";
+                query = "insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit,ComName) values('" + mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+ ",'" + comName + "')";
                 fn.setData(query, "Medicine Added to DataBase");
                 ClearAll();
             }
@@ -59,6 +60,11 @@ namespace Pharmacy_Management_System.PharmacistUC
         }
 
         private void txtPricePerUnit_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCompanyName_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

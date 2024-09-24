@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Pharmacy_Management_System.AdminstratorUC
 {
-    public partial class UC_AddUser : UserControl
+    public partial class UC_AddUser : UserControl 
     {
         Function fn = new Function();
         String query;
@@ -18,7 +19,7 @@ namespace Pharmacy_Management_System.AdminstratorUC
         {
             InitializeComponent();
         }
-
+       public  String user = " ";
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -34,6 +35,8 @@ namespace Pharmacy_Management_System.AdminstratorUC
 
         }
 
+        
+
         private void btnSign_up_Click(object sender, EventArgs e)
         {
             try
@@ -46,10 +49,12 @@ namespace Pharmacy_Management_System.AdminstratorUC
                 String email = txtEmail.Text;
                 String username = txtUserName.Text;
                 String password = txtPassword.Text;
+                String company = comName.Text;
+                String address = txtAddress.Text;
 
                 try
                 {
-                    query = "insert into users(userRole,name,dob,mobile,email,username,pass) values ('" + role + "','" + name + "','" + dob + "'," + mobile + ",'" + email + "','" + username + "','" + password + "')";
+                    query = "insert into users(userRole,name,dob,mobile,email,username,pass,ComName,uaddress) values ('" + role + "','" + name + "','" + dob + "'," + mobile + ",'" + email + "','" + username + "','" + password + "','" + company + "','" + address + "')";
                     fn.setData(query, "SignUp successful.");
                 }
                 catch (Exception)
@@ -85,6 +90,8 @@ namespace Pharmacy_Management_System.AdminstratorUC
             txtEmail.Clear();
             txtUserName.Clear();
             txtPassword.Clear();
+            txtAddress.Clear();
+            comName.SelectedIndex = -1;
             txtUserRole.SelectedIndex = -1;
 
         }
@@ -105,7 +112,7 @@ namespace Pharmacy_Management_System.AdminstratorUC
 
         private void UC_AddUser_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label2_Click(object sender, EventArgs e)

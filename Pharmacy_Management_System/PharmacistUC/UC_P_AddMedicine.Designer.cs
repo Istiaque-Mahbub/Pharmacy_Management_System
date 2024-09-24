@@ -48,6 +48,8 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtCompanyName = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -159,7 +161,7 @@
             // 
             this.txtQuantity.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuantity.ForeColor = System.Drawing.Color.Black;
-            this.txtQuantity.Location = new System.Drawing.Point(588, 265);
+            this.txtQuantity.Location = new System.Drawing.Point(588, 249);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(340, 32);
             this.txtQuantity.TabIndex = 14;
@@ -168,7 +170,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(583, 222);
+            this.label7.Location = new System.Drawing.Point(583, 206);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 25);
             this.label7.TabIndex = 13;
@@ -178,7 +180,7 @@
             // 
             this.txtPricePerUnit.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPricePerUnit.ForeColor = System.Drawing.Color.Black;
-            this.txtPricePerUnit.Location = new System.Drawing.Point(588, 403);
+            this.txtPricePerUnit.Location = new System.Drawing.Point(588, 361);
             this.txtPricePerUnit.Name = "txtPricePerUnit";
             this.txtPricePerUnit.Size = new System.Drawing.Size(340, 32);
             this.txtPricePerUnit.TabIndex = 16;
@@ -188,7 +190,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(583, 360);
+            this.label8.Location = new System.Drawing.Point(583, 318);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(130, 25);
             this.label8.TabIndex = 15;
@@ -203,7 +205,7 @@
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(562, 505);
+            this.btnAdd.Location = new System.Drawing.Point(559, 535);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(209, 43);
             this.btnAdd.TabIndex = 19;
@@ -220,7 +222,7 @@
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
             this.btnReset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReset.Location = new System.Drawing.Point(816, 505);
+            this.btnReset.Location = new System.Drawing.Point(813, 535);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(209, 43);
             this.btnReset.TabIndex = 20;
@@ -232,11 +234,39 @@
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(583, 421);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(154, 25);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Company Name";
+            // 
+            // txtCompanyName
+            // 
+            this.txtCompanyName.BackColor = System.Drawing.Color.White;
+            this.txtCompanyName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCompanyName.ForeColor = System.Drawing.Color.Black;
+            this.txtCompanyName.FormattingEnabled = true;
+            this.txtCompanyName.Items.AddRange(new object[] {
+            "ACI Limited",
+            "Lazzpharma",
+            "Square Pharmaceuticals"});
+            this.txtCompanyName.Location = new System.Drawing.Point(588, 474);
+            this.txtCompanyName.Name = "txtCompanyName";
+            this.txtCompanyName.Size = new System.Drawing.Size(340, 32);
+            this.txtCompanyName.TabIndex = 22;
+            this.txtCompanyName.SelectedIndexChanged += new System.EventHandler(this.txtCompanyName_SelectedIndexChanged);
+            // 
             // UC_P_AddMedicine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.txtCompanyName);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtPricePerUnit);
@@ -281,5 +311,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnReset;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox txtCompanyName;
     }
 }

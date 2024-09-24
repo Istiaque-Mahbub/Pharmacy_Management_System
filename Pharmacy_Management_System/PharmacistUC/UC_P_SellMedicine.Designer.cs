@@ -204,6 +204,7 @@
             this.txtPricePerUnit.ReadOnly = true;
             this.txtPricePerUnit.Size = new System.Drawing.Size(340, 30);
             this.txtPricePerUnit.TabIndex = 21;
+            this.txtPricePerUnit.TextChanged += new System.EventHandler(this.txtPricePerUnit_TextChanged);
             // 
             // label7
             // 

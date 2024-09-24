@@ -61,7 +61,10 @@ namespace Pharmacy_Management_System
             txtEmail.Clear();
             txtUserName.Clear();
             txtPassword.Clear();
-            txtUserRole.SelectedIndex = -1;
+            txtCompany.SelectedIndex = 0;
+            txtUserRole.SelectedIndex = 0;
+            txtAddress.Clear();
+            
 
         }
 
@@ -76,11 +79,15 @@ namespace Pharmacy_Management_System
                 String email = txtEmail.Text;
                 String username = txtUserName.Text;
                 String password = txtPassword.Text;
+                String address = txtAddress.Text;
+                String comName = txtCompany.Text;
+                
 
                 try
                 {
-                    query = "insert into users(userRole,name,dob,mobile,email,username,pass) values ('" + role + "','" + name + "','" + dob + "'," + mobile + ",'" + email + "','" + username + "','" + password + "')";
+                    query = "insert into users(userRole,name,dob,mobile,email,username,pass,ComName,uaddress) values ('" + role + "','" + name + "','" + dob + "'," + mobile + ",'" + email + "','" + username + "' , '" + password + "', '" + comName + "', '" + address + "')";
                     fn.setData(query, "SignUp successful.");
+                    clearAll();
                 }
                 catch (Exception)
                 {
@@ -98,6 +105,11 @@ namespace Pharmacy_Management_System
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
