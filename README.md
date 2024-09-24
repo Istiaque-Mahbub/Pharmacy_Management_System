@@ -65,9 +65,9 @@ pass varchar (250) not null<br />
 <br />
 <br />
   <br />
-# SQL qurey
-<br />
+# SQL Qurey
 
+<br />
   SignUp page<br />
 select * from users<br />
 select * from users where username = '" +textUserName.Text+"' and pass='"+textPassword.Text+"'<br />
@@ -143,7 +143,8 @@ update medic set quantity ='" + newQuantity + "' where mid='" + valueId + "'<br 
  ![image](https://github.com/user-attachments/assets/44117af2-0c1c-486b-9705-9dee28f65dd8)
 
 
-
+# Project Demonstration Video
+https://drive.google.com/file/d/15XeC3zVqW768ba_-c4i36xRcxYAzMaNL/view?pli=1
 
 
 
