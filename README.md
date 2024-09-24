@@ -59,12 +59,10 @@ pass varchar (250) not null<br />
 <br />
   <br />
 # ScreenShot of Database
-<br />
-medic table<br />
-![image](https://github.com/user-attachments/assets/564d5b88-d5fd-408f-97a4-78f45d73551a) <br />
-users table<br />
-![image](https://github.com/user-attachments/assets/a9bf1f87-2777-4ccf-abeb-1758ca3a1218)
-   <br />
+![image](https://github.com/user-attachments/assets/476a5d58-75d8-460f-9ae6-4c33aa0884ed)
+![image](https://github.com/user-attachments/assets/11072aee-250d-4bac-8ba3-7260adf5ec4d)
+
+
 
  # Fuctionality of this project
  When the username and password matches the respective user then it will allow to perform all the functionalities. If the data matches with adminstrator then it will open the admin dashboard. Where we can me the total number of admin, pharmacist, customer . Then he have the option to add pharmacist, view all the users, change his profile info.<br />
